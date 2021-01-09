@@ -1,0 +1,239 @@
+* {
+padding:0;
+margin:0;
+font-family: 'PT Mono', sans-serif;
+}
+
+body{
+background:#000;
+overflow:auto;
+color: #fffc00;
+font-family: 'PT Mono', sans-serif;
+font-size: 12px;
+padding: 0;
+cursor: default;
+}
+
+a {
+color: #fffc00;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+li {
+list-style: none;
+padding: 4px 0
+}
+
+.drawingpix {
+position:absolute;
+top:-50px;
+left:-50px;
+z-index: -999;
+}
+
+#mainNah {
+position: absolute;
+width: 100%;
+margin: 0px auto;
+text-align: center;
+z-index: -1;
+}
+
+.nah {
+max-width: 900px;
+margin: 0px auto;
+text-align: center;
+z-index: 5000;
+padding-top: 100px;
+overflow: hidden;
+}
+
+.nah h1 {
+background: none;
+color: #FFF;
+font-size: 70px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.nah span {
+color: #FFF;
+font-size: 30px;
+text-align: center;
+}
+
+.nah h2 {
+font-size: 30px;
+margin: 15px 0;
+text-align: center;
+}
+
+.box {
+background: none repeat scroll 0 0 #444444;
+border: 1px solid #999999;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 6px #BBBBBB;
+display: block;
+left: 40px;
+opacity: 0.85;
+padding: 15px;
+position: absolute;
+top: 60px;
+z-index: 3000;
+width:320px;
+}
+
+.box2 {
+left: 270px;
+}
+
+.box3 {
+left: 500px;
+}
+
+.box4 {
+left: 730px;
+}
+
+.box5 {
+left: 960px;
+}
+
+footer {
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 99%;
+    z-index: 2000;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+footer span{
+padding: 10px 0;
+display: block;
+}
+
+#leftAds {
+left:0;
+bottom:0;
+margin: 0 auto;
+position: absolute;
+width: 120px;
+z-index: 1000;
+height: 600px;
+}
+
+#rightAds {
+bottom:0;
+right:0;
+margin: 0 auto;
+position: absolute;
+width: 120px;
+z-index: 1000;
+height: 600px;
+}
+
+#facebook {
+position: absolute;
+border-radius: 0 0 0 7px;
+height: 63px;
+overflow: hidden;
+width: 225px;
+background: #000;
+z-index: 3000;
+top:0;
+right:0
+}
+
+#menu {
+position: absolute;
+border-radius: 0 0 7px 0;
+overflow: hidden;
+background: #000;
+z-index: 3000;
+top:0;
+left:0;
+padding: 10px;
+}
+
+input {
+background: none repeat scroll 0 0 #FFFC00;
+border: 1px solid #000000;
+border-radius: 5px 5px 5px 5px;
+padding: 3px;
+width: 160px;
+}
+
+textarea {
+background: none repeat scroll 0 0 #FFFC00;
+border: 1px solid #000000;
+border-radius: 5px 5px 5px 5px;
+padding: 3px;
+width: 300px;
+}
+
+.submit {
+font-weight: bold;
+}
+
+.msg {
+background: #CC0000;
+color: #FFFC00;
+padding:5px;
+display:block;
+border-radius: 5px;
+}
+
+.emp {
+text-align:center;
+}
+
+.a span {
+font-size: 17px;
+font-weight: bold;
+}
+
+.cat  span{
+font-size: 15px;
+font-weight: bold;
+line-height: 16px;
+}
+
+h1 {
+background: none repeat scroll 0 0 #FFFC00;
+border-radius: 7px 7px 7px 7px;
+color: #000000;
+font-size: 24px;
+margin-bottom: 10px;
+padding: 2px 6px;
+text-align: right;
+}
+
+.auto {
+width: 185px;
+padding: 10px;
+}
+
+.block {
+float: left;
+}
+
+.block li {
+padding: 0;
+}
+
+hr {
+border: none;
+border-top: 1px dashed #FFFC00;
+margin: 10px 0;
+}
+
+.fb_change {
+display: block!important;
+margin: 30px 0;
+}
